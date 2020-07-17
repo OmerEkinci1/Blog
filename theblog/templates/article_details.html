@@ -23,7 +23,6 @@
 {{post.body|safe}}
 
 <br>
-<a class="btn btn-secondary" href="{% url 'home' %}">Back</a>
 
 <br><br>
 <hr>
@@ -43,6 +42,21 @@
     {% endif %}
     - {{ total_likes }}  Likes
 </form>
+
+<br><br>
+<h2>Commnets</h2>
+<br>
+{% if not post.comments.all %}
+    No Comments yet :( <a href="#">Add One</a>
+{% else %}
+    {% for comment in post.comments.all %}
+        <strong>{{ comment.name }} - {{ comment.date_added }} </strong>
+            <br><br>
+            <hr>
+        {{ comment.body }}
+    {% endfor %}
+{% endif %}
+
 
 <br><br>
 
