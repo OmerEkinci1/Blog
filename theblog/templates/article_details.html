@@ -44,21 +44,6 @@
 </form>
 
 <br><br>
-<h2>Commnets</h2>
-<br>
-{% if not post.comments.all %}
-    No Comments yet :( <a href="#">Add One</a>
-{% else %}
-    {% for comment in post.comments.all %}
-        <strong>{{ comment.name }} - {{ comment.date_added }} </strong>
-            <br><br>
-            <hr>
-        {{ comment.body }}
-    {% endfor %}
-{% endif %}
-
-
-<br><br>
 
 <div class="card mb-3">
   <div class="row no-gutters">
@@ -99,4 +84,24 @@
   </div>
 </div>
 
+<br><br>
+
+<h2>Commnets</h2>
+<br>
+{% if not post.comments.all %}
+    No Comments yet :( <a href="{% url 'add_comment' post.pk %}">Add One</a>
+{% else %}
+    <a href="{% url 'add_comment' post.pk %}">Add Comment</a>
+    <br><br>
+    {% for comment in post.comments.all %}
+        <strong>{{ comment.name }} - {{ comment.date_added }} </strong>
+            <br><br>
+            <hr>
+        {{ comment.body }}
+    {% endfor %}
+    <a href="{% url 'add_comment' post.pk %}">Add Comment</a>
+{% endif %}
+<br>
+
+<br><br>
 {% endblock %}
