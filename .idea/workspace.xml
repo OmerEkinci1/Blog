@@ -17,12 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b63a0f3-1cd6-4cea-8988-f35ae8811d10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/theblog/templates/add_comment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/templates/article_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/article_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/members/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
