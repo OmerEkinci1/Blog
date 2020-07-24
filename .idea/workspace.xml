@@ -18,7 +18,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b63a0f3-1cd6-4cea-8988-f35ae8811d10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/members/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theblog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +81,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="0" width="579" height="824" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591225018964" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1591045797297">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1595622551654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591045797297" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595622551654" />
   </component>
 </project>

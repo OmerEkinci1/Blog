@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+# from datetime import datetime
+# from myapp import version
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -40,7 +42,15 @@ INSTALLED_APPS = [
     'theblog',
     'members',
     'ckeditor',
+    #
 ]
+
+# 'admin_footer',ADMIN_FOOTER_DATA = {
+#   'site_url': 'https://www.google.com',
+#   'site_name': 'Google',
+#   'period': '{}'.format(datetime.now().year),
+#   'version': 'v{} - '.format(version)
+# }
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
