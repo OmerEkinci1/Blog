@@ -45,13 +45,6 @@ INSTALLED_APPS = [
     #
 ]
 
-# 'admin_footer',ADMIN_FOOTER_DATA = {
-#   'site_url': 'https://www.google.com',
-#   'site_name': 'Google',
-#   'period': '{}'.format(datetime.now().year),
-#   'version': 'v{} - '.format(version)
-# }
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
